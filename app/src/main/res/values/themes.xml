@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base applications theme -->
+    <style name="Base.Theme.Prp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--Customize your light theme. -->
+       <item name="colorPrimary">@color/dWhite</item>
+    </style>
+
+    <style name="Theme.Prp" parent="Base.Theme.Prp"/>
+</resources>
