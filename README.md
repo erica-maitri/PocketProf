@@ -33,8 +33,6 @@ Data Visualization: AnyChart Library
 
 Monetization Engine: Google AdMob SDK
 
-📂 Project Structure
-Plaintext
 app/src/main/java/[your_package]/
 │
 ├── 📁 views/
