@@ -33,38 +33,54 @@ Data Visualization: AnyChart Library
 
 Monetization Engine: Google AdMob SDK
 
-app/src/main/java/[your_package]/
-│
-├── 📁 views/
-│   ├── 📁 activity/
-│   │   ├── SplashActivity.java        # MotionLayout animated splash handler
-│   │   ├── LoginActivity.java         # User session validator
-│   │   ├── SignupActivity.java        # Firebase registration controller
-│   │   ├── ForgetPasswordActivity.java# Password recovery gateway
-│   │   └── MainActivity.java          # Core base shell for bottom navigation bar interaction
-│   │
-│   └── 📁 fragment/
-│       ├── TransactionFragment.java   # Primary feed displaying daily/monthly analytics
-│       ├── StateFragment.java         # Data visualization interface using AnyChart
-│       └── AddTransactionFragment.java# Bottom Sheet Dialog processing financial input entries
-│
-├── 📁 viewmodel/
-│   └── MainViewModel.java             # Mediates Firestore streams to transactional LiveData
-│
-├── 📁 adapters/
-│   ├── TransactionAdapter.java        # Custom layout wrapper managing RecyclerView data binding
-│   └── CategoryAdapter.java           # Multi-span Grid Layout binder for visual category selections
-│
-├── 📁 models/
-│   ├── Transaction.java               # Object configuration blueprint for expenditures
-│   ├── Category.java                  # Object properties mapping names, coloring and icon keys
-│   └── UserModel.java                 # Object configuration for account properties
-│
-├── 📁 util/
-│   ├── Constant.java                  # Hardcoded references ensuring unified query strings
-│   └── Helper.java                    # Format string parsing utility functions for timestamps
-│
-└── 📁 admob/                          # AdMob abstraction interface layers
+📂 Project Directory Structure
+📁 views
+
+📁 activity
+
+SplashActivity.java — MotionLayout animated splash handler
+
+LoginActivity.java — User session validator
+
+SignupActivity.java — Firebase registration controller
+
+ForgetPasswordActivity.java — Password recovery gateway
+
+MainActivity.java — Core base shell for bottom navigation bar interaction
+
+📁 fragment
+
+TransactionFragment.java — Primary feed displaying daily/monthly analytics
+
+StateFragment.java — Data visualization interface using AnyChart
+
+AddTransactionFragment.java — Bottom Sheet Dialog processing financial input entries
+
+📁 viewmodel
+
+MainViewModel.java — Mediates Firestore streams to transactional LiveData
+
+📁 adapters
+
+TransactionAdapter.java — Custom layout wrapper managing RecyclerView data binding
+
+CategoryAdapter.java — Multi-span Grid Layout binder for visual category selections
+
+📁 models
+
+Transaction.java — Object configuration blueprint for expenditures
+
+Category.java — Object properties mapping names, coloring and icon keys
+
+UserModel.java — Object configuration for account properties
+
+📁 util
+
+Constant.java — Hardcoded references ensuring unified query strings
+
+Helper.java — Format string parsing utility functions for timestamps
+
+📁 admob — AdMob abstraction interface layers
 
 🚀 Setup & Installation
 1. Clone the repository
